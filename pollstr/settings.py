@@ -137,4 +137,7 @@ STATIC_URL = '/static/'
 
 LOGIN_REDIRECT_URL = '/2fa/'
 
+NEXMO_API_KEY= '77caef4b'
+NEXMO_API_SECRET= 'J8JUaeHngMWQtcAf'
+
 django_heroku.settings(locals())
