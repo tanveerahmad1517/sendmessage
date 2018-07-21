@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "*"
+
+[packages]
+"psycopg2-binary" = "*"
+django-heroku = "*"
+gunicorn = "*"
+Pillow = "*"
+dj-database-url = "*"
+six = "*"
+whitenoise = "*"
+requests = "*"
+nexmo = "*"
+django-dotenv = "*"
+request = "*"
+
+[dev-packages]
